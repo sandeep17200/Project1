@@ -55,6 +55,7 @@ public class TestNg1  extends BaseClass{
 		sendKeys(h.gettxtpassword(), pass);
 //		s.assertEquals(getAttribute(h.gettxtpassword()), "9898");
 		Click(h.btnlogin);
+		Click(h.btnlogin);
 		
 		System.out.println("test1");
 //		s.assertAll();
